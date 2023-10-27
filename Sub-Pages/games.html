@@ -1,9 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>games</title>
-    <body>
-      <h1>~ Games ~</h1>
-    </body>
-  </head>
+    <style>
+        /* Style for the image buttons and captions */
+        .image-button {
+            display: inline-block;
+            text-align: center;
+            margin: 10px;
+            border: 1px solid #333; /* Border around the image buttons */
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .image-button img {
+            max-width: 100%;
+        }
+
+        /* Center the text within the image button */
+        .image-caption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-button" onclick="window.open('https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://427396048-642845047394716217.preview.editmysite.com/uploads/b/139890129-761103484729797659/files/ovo.xml', '_blank');">
+        <img src="image1.jpg" alt="Image 1">
+        <div class="image-caption">OVO</div>
+    </div>
+
+    <div class="image-button" onclick="window.open('https://example2.com', '_blank');">
+        <img src="image2.jpg" alt="Image 2">
+        <div class="image-caption">Button 2</div>
+    </div>
+
+    <!-- Add more image buttons as needed -->
+
+</body>
 </html>

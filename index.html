@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Untitled</title>
-    <body>
-      <a href="submit_page.html">
-        <img src="Images/github.png" alt="Submit">
-    </a>
-    </body>
-  </head>
+</head>
+<body>
+    <img src="Images/github.png" alt="" id="githubButton">
+    
+    <script>
+        // Add a click event listener to the image button
+        document.getElementById("githubButton").addEventListener("click", function() {
+            // Load the external JavaScript file dynamically
+            var script = document.createElement("script");
+            script.src = "Javascript/github.js";
+            document.body.appendChild(script);
+        });
+    </script>
+</body>
 </html>

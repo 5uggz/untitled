@@ -1,1 +1,41 @@
+/* Set a white background for the entire page */
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Your Font Name', sans-serif; /* Replace 'Your Font Name' with your preferred font-family */
+}
+
+/* Center text horizontally and vertically */
+.text-center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+/* Style for buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333; /* Button background color */
+    color: #ffffff; /* Text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    font-family: 'Your Font Name', sans-serif; /* Use the same font as the body or specify a different one */
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Additional button styles (you can create multiple classes for different button styles) */
+.button.primary {
+    background-color: #007bff; /* Primary button color */
+}
+
+
+/* Add more button styles as needed */
+
+/* Add any additional CSS styles for specific elements on your page */
 
